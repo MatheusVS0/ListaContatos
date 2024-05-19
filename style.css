@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(217, 200, 252);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+main{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+img{
+    border-radius: 50%;
+    height: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.contatos{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
+    height: 420px;
+    overflow-y: scroll;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.contatos .cont{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    border-bottom: 1px solid gray;
+    justify-content: space-between;
+}
+
+.contatos :hover{
+    background-color: rgb(230, 230, 230);
+}
+
+.contatos :hover .items{
+    visibility: visible;
+}
+
+.contatos .info{
+    margin-left: 20px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    position:fixed;
+    bottom: 0px;
+}
+
+.items{
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50px;
+    visibility: hidden;
+}
+
+.contatos .items img{
+    border-radius: 0;
+    height: 20px;
+    margin: 0;
+}
+
+
+
